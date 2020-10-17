@@ -14,11 +14,6 @@ public class TestVenda {
         }
     }
 
-    // private void rodarTestarRetorno(String expected, Venda venda) {
-    //     String retorno = venda.dadosVenda();
-    //     assertEquals(expected, retorno);    
-    // }
-
     private String NOME_LOJA = "Loja 1";
     private String LOGRADOURO = "Log 1";
     private int NUMERO = 10;
@@ -36,8 +31,6 @@ public class TestVenda {
     private String COO_VENDA = "035804";
 
     private Produto produto = new Produto(100, "banana", "cx", 7.45, "ST");
-    // private Produto produto_2 = new Produto(101, "laranja", "cx", 3.32, "ST");
-    // private Produto produto_3 = new Produto(102, "leite", "l", 2.15, "");
     private Produto produto_sem_valor = new Produto(102, "leite", "l", 0, "");
 
     public String brk = System.lineSeparator();
